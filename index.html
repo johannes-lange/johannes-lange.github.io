@@ -8,20 +8,21 @@
    </head>
    <body>
       <div id="header">
-          <h1>Johannes Lange at <a href="https://github.com/johannes-lange/">GitHub</a></h1>
+          <h1>Johannes Lange</h1>
       </div>
 
       <div class="nav">
          <h2>{</h2>
          <nav><ul style="list-style: none;">
-            <li><a href="https://johannes-lange.github.io/index.html#Projects">Projects</a></li>
-            <li><a href="https://johannes-lange.github.io/index.html#FindMe">Find me...</a></li>
+            <!--<li><a href="#">Top</a></li>-->
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#FindMe">Find me...</a></li>
          </ul></nav>
          <h2>}</h2>
       </div>
 
       <div style="margin-left:210px">
-            <div id="Projects">
+            <div id="Projects" style="border:1px solid #404040;padding:10px;margin-bottom:10px;">
                <h2>Projects</h2>
                find my Projects at <a href="https://github.com/johannes-lange/">GitHub</a>
 
@@ -38,7 +39,7 @@
                Qt4 based Brainfuck Interpreter GUI<br><br>
                For Download and Source Code <a href="https://github.com/johannes-lange/qt-bfint">see</a>.
             </div>
-            <div id="FindMe">
+            <div id="FindMe" style="border:1px solid #404040; padding:10px;margin-bottom:10px;">
                <h2>Find me...</h2>
                <ul>
                   <li><a href="https://github.com/johannes-lange/">GitHub</a></li>
@@ -48,8 +49,16 @@
       </div>
 
       <!-- footline-->
-      <div id="bottom" style="position:fixed;bottom:0;">
-          <font size="1">&copy; 2014 <a href="https://github.com/johannes-lange/">Johannes Lange</a></font>
+      <div id="bottom" style="position:fixed;bottom:0;font-size:xx-small">
+         <script language="javascript">
+            var theDate = new Date(document.lastModified);
+            with (theDate) {
+               document.write("<i>Last updated "+getFullYear()+'-'+getMonth()+'-'+getDate()+"</i>")
+            }
+         </script>
+         <br>
+         &copy; 2014 <a href="https://github.com/johannes-lange/">Johannes Lange</a>
+
       </div>
    </body>
 </html>
