@@ -10,4 +10,9 @@ h2, h3 { color:green;text-decoration:none; }
 div.nav { position:fixed; color:green ;border:1px solid #404040; width:200px; z-index:100; }
 div.nav a, div.nav h2 { font-weight:bold; display:block; margin:0 0.5em;color:green;text-decoration:none; }
 
+#screenshots{
+    text-align:center;
+}
+
 img.screenshot { max-width:75%;display:block;margin-left:auto;margin-right:auto }
+img.preview { max-width:35%; display: inline-block;margin-left:auto;margin-right:auto}
