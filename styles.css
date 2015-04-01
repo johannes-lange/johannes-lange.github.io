@@ -1,4 +1,4 @@
-body     { background-color: #272727; color: #999999; max-width:90%;}
+body     { background-color: #272727; color: #999999; max-width:900px; margin: 0 auto}
 
 a        { color:#999999; text-decoration:underline; }
 a:focus  { color:red; text-decoration:underline; }
