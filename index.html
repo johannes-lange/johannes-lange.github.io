@@ -1,3 +1,5 @@
+---
+---
 <!doctype html>
 <html>
   <head>
@@ -16,26 +18,8 @@
            style="display:block;margin: 0 auto;max-width:100%;height:auto;">
     </div>
 
-    <div class="nav">
-      <font size="5"><b>{</b></font>
-      <nav><ul style="list-style: none;">
-          <li><a href="#Projects">Projects</a></li>
-          <li><a href="#AboutMe">About me…</a></li>
-      </ul></nav>
-      <font size="5"><b>}</b></font>
-      <div style="position:fixed; width:200px; font-size:small;color:#999999">
-        <br><br><br>find me:
-      </div>
-      <div style="position:fixed; width:160px; text-align:right">
-        <br><br>
-        <a href="https://github.com/jolange/">
-          <img height="32" width="33"  src="img/GitHub-Mark.svg" alt="GitHub" vspace="10">
-        </a>
-        <a href="http://www.physik.rwth-aachen.de/go/id/dwqp/gguid/0xB0F69C54F853A54EBC659BFD16AB88E1/ikz/11/allou/1">
-          <img height="32" width="110" src="img/RWTH_Logo_white.png" alt="RWTH">
-        </a>
-      </div>
-    </div>
+    {% include nav.html %}
+
     <div style="margin-left:210px">
       <div id="Projects" style="border:1px solid #404040;padding:10px;margin-bottom:10px;">
         <h2>Projects</h2>
@@ -109,25 +93,5 @@
       </div>
     </div>
 
-    <!-- footline-->
-    <div id="bottom" style="position:fixed;bottom:0;font-size:xx-small">
-      <script language="javascript">
-        var theDate = new Date(document.lastModified);
-        with (theDate) {
-        document.write("<i>Last updated "+getFullYear()+'-'+ (getMonth()+1) +'-'+getDate()+"</i>")
-        }
-      </script>
-      <table>
-        <tr>
-          <td>&copy; 2014-2015</td>
-          <td>Johannes Lange</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><a href="http://www.physik.rwth-aachen.de/go/id/dwqp/gguid/0xB0F69C54F853A54EBC659BFD16AB88E1/ikz/11/allou/1">Contact</a></td>
-        </tr>
-      </table>
-
-    </div>
   </body>
 </html>
