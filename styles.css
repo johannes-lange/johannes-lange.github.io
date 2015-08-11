@@ -1,5 +1,9 @@
-body     { background-color: #272727; color: #999999; max-width:900px; margin: 0 auto;
+body     { max-width:900px; margin: 0 auto;
+           color: #999999;
            font-family: 'Source Sans Pro', sans-serif;
+           /* Background pattern from subtlepatterns.com */
+           background: url("img/dark_wood.png");
+           background-attachment: fixed
          }
 
 a        { color:white; text-decoration:none; font-weight: normal; font-style: italic}
@@ -11,6 +15,12 @@ h1, h2, h3 { color:#1793D1;text-decoration:none; }
 h1 {text-align:center; width:80%; margin:10px auto 20px; padding-bottom: 10px; border-bottom: solid #404040 1px;}
 /* hr {color:#404040; background:#404040; height:1px; width:80%; border:none; */
 /*     margin: 0 auto 20 auto} */
+
+div.content { background-color: rgba(0, 0, 0, 0.6);
+              border:1px solid #404040; padding:10px;margin-bottom:10px; padding:10px;margin-bottom:10px;
+            }
+div.nav     { background-color: rgba(0, 0, 0, 0.6);}
+
 div.nav { position:fixed; color:#1793D1 ;border:1px solid #404040; width:200px; z-index:100; }
 div.nav a, div.nav h2 { font-weight:bold; font-style: normal; display:block; margin:0 0.5em;color:#1793D1;text-decoration:none; }
 div.nav a:hover {color:white}
