@@ -1,0 +1,41 @@
+body     { max-width:900px; margin: 0 auto;
+           color: #999999;
+           font-family: 'Source Sans Pro', sans-serif;
+           font-weight: 600;
+           /* Background pattern from subtlepatterns.com */
+           background: url("img/dark_wood.png");
+           background-attachment: fixed
+         }
+
+a        { color:white; text-decoration:none; font-weight: 600; font-style: italic}
+a:focus  { color:white; text-decoration:underline; }
+a:hover  { color:white; text-decoration:underline; }
+a:active { color:white; text-decoration:underline; }
+
+h1, h2, h3 { color:#1793D1;text-decoration:none;
+             font-weight: bold;
+           }
+h1 {text-align:center; width:80%; margin:10px auto 20px; padding-bottom: 10px; border-bottom: solid #404040 1px;}
+/* hr {color:#404040; background:#404040; height:1px; width:80%; border:none; */
+/*     margin: 0 auto 20 auto} */
+
+div.content { background-color: rgba(0, 0, 0, 0.6);
+              border:1px solid #404040; padding:15px; margin-bottom:10px;
+            }
+
+div.nav     { background-color: rgba(0, 0, 0, 0.6);
+              font-family: "Source Code Pro", sans-serif;
+              font-weight: 700;
+              font-size: 18px;
+              position:fixed; color:#1793D1 ;border:1px solid #404040; width:200px; z-index:100;
+            }
+div.nav ul  {list-style: none; margin:0 0;}
+div.nav a, div.nav h2 {font-weight: 700; font-style: normal; display:block; margin:0 0.5em;color:#1793D1;text-decoration:none; }
+div.nav a:hover {color:white}
+
+#screenshots{
+    text-align:center;
+}
+
+img.screenshot { max-width:75%;display:block;margin-left:auto;margin-right:auto }
+img.preview { max-width:35%; display: inline-block;margin-left:auto;margin-right:auto}
