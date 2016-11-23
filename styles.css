@@ -39,3 +39,4 @@ div.nav a:hover {color:white}
 
 img.screenshot { max-width:75%;display:block;margin-left:auto;margin-right:auto }
 img.preview { max-width:35%; display: inline-block;margin-left:auto;margin-right:auto}
+img.previewcol { max-width:90%; display: inline-block;margin-left:auto;margin-right:auto}
