@@ -1,5 +1,6 @@
 body     { max-width:900px; margin: 0 auto;
            color: #999999;
+           background-color: #101010;
            font-family: 'Source Sans Pro', sans-serif;
            font-weight: 600;
            /* Background pattern from subtlepatterns.com */
@@ -19,11 +20,11 @@ h1 {text-align:center; width:80%; margin:10px auto 20px; padding-bottom: 10px; b
 /* hr {color:#404040; background:#404040; height:1px; width:80%; border:none; */
 /*     margin: 0 auto 20 auto} */
 
-div.content { background-color: rgba(0, 0, 0, 0.6);
+div.content { background-color: rgba(0, 0, 0, 0.7);
               border:1px solid #404040; padding:15px; margin-bottom:10px;
             }
 
-div.nav     { background-color: rgba(0, 0, 0, 0.6);
+div.nav     { background-color: rgba(0, 0, 0, 0.7);
               font-family: "Source Code Pro", sans-serif;
               font-weight: 700;
               font-size: 18px;
