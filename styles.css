@@ -1,11 +1,8 @@
 body     { max-width:900px; margin: 0 auto;
            color: #999999;
-           background-color: #101010;
+           background-color: #303030;
            font-family: 'Source Sans Pro', sans-serif;
            font-weight: 600;
-           /* Background pattern from subtlepatterns.com */
-           background: url("img/dark_wood.png");
-           background-attachment: fixed
          }
 
 a        { color:white; text-decoration:none; font-weight: 600; font-style: italic}
@@ -20,11 +17,11 @@ h1 {text-align:center; width:80%; margin:10px auto 20px; padding-bottom: 10px; b
 /* hr {color:#404040; background:#404040; height:1px; width:80%; border:none; */
 /*     margin: 0 auto 20 auto} */
 
-div.content { background-color: rgba(0, 0, 0, 0.7);
-              border:1px solid #404040; padding:15px; margin-bottom:10px;
+div.content { background-color: rgba(20, 20, 20, 0.9);
+              border:1px solid #505050; padding:15px; margin-bottom:10px;
             }
 
-div.nav     { background-color: rgba(0, 0, 0, 0.7);
+div.nav     { background-color: rgba(20, 20, 20, 0.9);
               font-family: "Source Code Pro", sans-serif;
               font-weight: 700;
               font-size: 18px;
